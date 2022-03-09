@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/josdrew-site/static/css/main.073c9b0a.css",
-    "main.js": "/josdrew-site/static/js/main.0da2c544.js",
+    "main.css": "/josdrew-site/static/css/main.b85debdd.css",
+    "main.js": "/josdrew-site/static/js/main.67a0f9b6.js",
     "static/js/787.ab0f5ac2.chunk.js": "/josdrew-site/static/js/787.ab0f5ac2.chunk.js",
-    "static/media/logo.svg": "/josdrew-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Desktop Bg.png": "/josdrew-site/static/media/Desktop Bg.8416b200ba0f6b6b10fe.png",
     "index.html": "/josdrew-site/index.html",
-    "main.073c9b0a.css.map": "/josdrew-site/static/css/main.073c9b0a.css.map",
-    "main.0da2c544.js.map": "/josdrew-site/static/js/main.0da2c544.js.map",
+    "main.b85debdd.css.map": "/josdrew-site/static/css/main.b85debdd.css.map",
+    "main.67a0f9b6.js.map": "/josdrew-site/static/js/main.67a0f9b6.js.map",
     "787.ab0f5ac2.chunk.js.map": "/josdrew-site/static/js/787.ab0f5ac2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0da2c544.js"
+    "static/css/main.b85debdd.css",
+    "static/js/main.67a0f9b6.js"
   ]
 }
