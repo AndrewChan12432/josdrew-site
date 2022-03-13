@@ -1,13 +1,141 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  color: white;
+  font-family: 'Alice', serif;
+  letter-spacing: 2px;
+}
+/* #FFDE59 */
+.App {
+  width: 100vw;
+  height: 100vh;
+  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../public/Desktop\ Bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.make-center {
+  text-align: left;
+  padding: 40px;
+}
+.make-side{
+  position: absolute;
+  right: 0;
+  bottom: 15%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 2px;
+}
+#fb-icon{
+  color: #4267B2;
+  margin: 5px;
+}
+#whatsapp-icon {
+  color:#25D366;
+  margin: 5px;
+}
+h1{
+  font-size: 50px;
+  letter-spacing: normal ;
+  margin:0;
+  font-family: 'League Spartan', sans-serif;
+}
+h6{
+  font-size: 20px;
+  font-weight: 100;
+  margin: 10px 0;
+}
+p{
+  font-size: 15px;
+  margin: 10px 0;
+}
+.moving-around {
+  position: relative;
+  top: -15px;
+  animation: updown 1s infinite;
+}
+.full-width{
+  width: 100%;
+  margin-top: 5px;
+}
+input {
+  font-family: 'Alice', serif;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input[type=text] {
+  width: 70%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border-radius: 1px;
+  border: #FFDE59;
+  background-color: #FFDE59;
+  color: black;
+}
+input[type=submit] {
+  width: 25%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border-radius: 1px;
+  border: white;
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (min-width: 600px) {
+  h1{
+    font-size: 90px;
+  }
+  h6{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  p{
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  .make-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  .make-center {
+    text-align: center;
+  }
+  .moving-around {
+    top: 0;
+    left: -50px;
+    animation: side 3s infinite;
+  }
+  .full-width{
+    display: flex;
+  }
+  .make-side{
+    position: relative;
+    margin-left: 50px;
+  }
+  input[type=text] {
+    width: auto;
+    flex: 3;
+  }
+  input[type=submit] {
+    width: auto;
+    flex: 1;
+  }
+}
+
+@keyframes side {
+  50%{ left: 0%};
+  100%{ left: -50%}
+}
+
+@keyframes updown {
+  50%{ top: 0px}
+  100%{ top: -15px}
 }
