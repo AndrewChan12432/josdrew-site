@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/josdrew-site/static/css/main.7738fa3d.css",
-    "main.js": "/josdrew-site/static/js/main.9c9a4daf.js",
+    "main.css": "/josdrew-site/static/css/main.fd87e88d.css",
+    "main.js": "/josdrew-site/static/js/main.7f6c6bfa.js",
     "static/js/787.ab0f5ac2.chunk.js": "/josdrew-site/static/js/787.ab0f5ac2.chunk.js",
     "static/media/Desktop Bg.png": "/josdrew-site/static/media/Desktop Bg.8416b200ba0f6b6b10fe.png",
     "index.html": "/josdrew-site/index.html",
-    "main.7738fa3d.css.map": "/josdrew-site/static/css/main.7738fa3d.css.map",
-    "main.9c9a4daf.js.map": "/josdrew-site/static/js/main.9c9a4daf.js.map",
+    "main.fd87e88d.css.map": "/josdrew-site/static/css/main.fd87e88d.css.map",
+    "main.7f6c6bfa.js.map": "/josdrew-site/static/js/main.7f6c6bfa.js.map",
     "787.ab0f5ac2.chunk.js.map": "/josdrew-site/static/js/787.ab0f5ac2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7738fa3d.css",
-    "static/js/main.9c9a4daf.js"
+    "static/css/main.fd87e88d.css",
+    "static/js/main.7f6c6bfa.js"
   ]
 }
