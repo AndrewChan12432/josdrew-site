@@ -1,5 +1,12 @@
 import './App.css';
 
+function closeSocial(){
+   document.getElementById('social').style.display = "none"
+}
+function openSocial(){
+   document.getElementById('social').style.display = "block"
+}
+
 function App() {
   return (
     <div className="App">
@@ -11,14 +18,20 @@ function App() {
         <h6>We are upgrading our website and will be on-line very soon</h6>
         <p>Reach out to us through Email,Facebook or Whatsapp (preferable)</p>
         <div className='full-width'>
-          <input type="text" placeholder="example@email.com"></input>
-          <input type="submit" />
-          <div className='make-side'>
+          <form>
+            <input type="text" 
+                   placeholder="example@email.com" 
+                   onKeyUpCapture={closeSocial} 
+                   onKeyDownCapture={openSocial} 
+            />
+            <input type="submit"></input>
+          </form>
+          <div className='make-side' id="social">
             <a href="https://www.facebook.com/JoshDrewWebStudio" id="fb-icon">
-              <i class="fa-brands fa-facebook-square fa-3x"></i>
+              <i className="fa-brands fa-facebook-square fa-3x"></i>
             </a>
             <a href="https://wa.me/60179906278?text=I'm%20interested%20for%20your%20services" id="whatsapp-icon">
-              <i class="fa-brands fa-whatsapp-square fa-3x"></i>
+              <i className="fa-brands fa-whatsapp-square fa-3x"></i>
           </a>
           </div>
         </div>
