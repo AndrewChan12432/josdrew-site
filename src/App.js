@@ -1,11 +1,17 @@
 import './App.css';
 
+
+let getSocial = document.getElementById('social');
+
 function closeSocial(){
-   document.getElementById('social').style.display = "none"
+   getSocial.style.display = "none"
 }
 function openSocial(){
-   document.getElementById('social').style.display = "block"
+   getSocial.style.display = "block"
 }
+window.addEventListener("resize", (e) => {
+  if(getSocial.style.display === "block") closeSocial(); else {openSocial()}
+});
 
 function App() {
   return (
@@ -18,13 +24,17 @@ function App() {
         <h6>We are upgrading our website and will be on-line very soon</h6>
         <p>Reach out to us through Email,Facebook or Whatsapp (preferable)</p>
         <div className='full-width'>
-          <form>
-            <input type="text" 
+          <form
+          action="https://formspree.io/f/xeqnzjyl"
+          method="POST"
+        
+          >
+            <input type="text" id="email"
+                   name='email'
                    placeholder="example@email.com" 
-                   onKeyUpCapture={closeSocial} 
-                   onKeyDownCapture={openSocial} 
+                   required
             />
-            <input type="submit"></input>
+            <input type="submit" name='submit'></input>
           </form>
           <div className='make-side' id="social">
             <a href="https://www.facebook.com/JoshDrewWebStudio" id="fb-icon">
@@ -32,7 +42,7 @@ function App() {
             </a>
             <a href="https://wa.me/60179906278?text=I'm%20interested%20for%20your%20services" id="whatsapp-icon">
               <i className="fa-brands fa-whatsapp-square fa-3x"></i>
-          </a>
+            </a>
           </div>
         </div>
       </div>
