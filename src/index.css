@@ -24,8 +24,8 @@ body {
 }
 .make-side{
   position: fixed;
-  right: 0;
-  bottom: 10%;
+  right: 5px;
+  bottom: 15%;
   background-color: white;
   padding: 5px;
   border-radius: 2px;
@@ -85,6 +85,9 @@ input[type=submit] {
   border: white;
   background-color: white;
   color: black;
+}
+.dissapear {
+  display: none;
 }
 
 @media only screen and (min-width: 1200px) {

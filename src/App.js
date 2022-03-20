@@ -1,16 +1,13 @@
 import './App.css';
 
-
-let getSocial = document.getElementById('social');
-
-function closeSocial(){
-   getSocial.style.display = "none"
-}
-function openSocial(){
-   getSocial.style.display = "block"
-}
-window.addEventListener("resize", (e) => {
-  if(getSocial.style.display === "block") closeSocial(); else {openSocial()}
+window.addEventListener("resize", () => {
+  let getSocial = document.getElementById("social");
+  getSocial.classList.toggle("dissapear")
+  // if(getSocial.classList.contains("dissapear")){
+  //   getSocial.classList.remove("dissapear");
+  // }else{
+  //   getSocial.classList.add("dissapear");
+  // }
 });
 
 function App() {
