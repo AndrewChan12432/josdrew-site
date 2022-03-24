@@ -24,21 +24,20 @@ function App() {
           <form
           action="https://formspree.io/f/xeqnzjyl"
           method="POST"
-        
           >
             <input type="text" id="email"
                    name='email'
                    placeholder="example@email.com" 
                    required
             />
-            <input type="submit" name='submit'></input>
+            <input type="submit" name='submit' />
           </form>
           <div className='make-side' id="social">
             <a href="https://www.facebook.com/JoshDrewWebStudio" id="fb-icon">
-              <i className="fa-brands fa-facebook-square fa-3x"></i>
+              <i className="fa-brands fa-facebook-square fa"></i>
             </a>
             <a href="https://wa.me/60179906278?text=I'm%20interested%20for%20your%20services" id="whatsapp-icon">
-              <i className="fa-brands fa-whatsapp-square fa-3x"></i>
+              <i className="fa-brands fa-whatsapp-square fa"></i>
             </a>
           </div>
         </div>
