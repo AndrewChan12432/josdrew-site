@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <div className="make-center">
         <div className="make-flex">
-          <h1 className='moving-around'>Under</h1>
-          <h1>Construction</h1>
+          <h1 className='moving-around'>Josdrew</h1>
+          <h1>Studio.SDK</h1>
         </div>
         <h6>We are upgrading our website and will be on-line very soon</h6>
         <p>Reach out to us through Email,Facebook or Whatsapp (preferable)</p>
