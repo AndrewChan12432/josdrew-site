@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1bc1d99d.css",
-    "main.js": "/static/js/main.cd7e9339.js",
-    "static/js/787.ab0f5ac2.chunk.js": "/static/js/787.ab0f5ac2.chunk.js",
-    "static/media/Desktop Bg.png": "/static/media/Desktop Bg.8416b200ba0f6b6b10fe.png",
-    "index.html": "/index.html",
-    "main.1bc1d99d.css.map": "/static/css/main.1bc1d99d.css.map",
-    "main.cd7e9339.js.map": "/static/js/main.cd7e9339.js.map",
-    "787.ab0f5ac2.chunk.js.map": "/static/js/787.ab0f5ac2.chunk.js.map"
+    "main.css": "/josdrew-site/static/css/main.62b897ca.css",
+    "main.js": "/josdrew-site/static/js/main.984563b3.js",
+    "static/js/787.ab0f5ac2.chunk.js": "/josdrew-site/static/js/787.ab0f5ac2.chunk.js",
+    "static/media/Desktop Bg.png": "/josdrew-site/static/media/Desktop Bg.8416b200ba0f6b6b10fe.png",
+    "index.html": "/josdrew-site/index.html",
+    "main.62b897ca.css.map": "/josdrew-site/static/css/main.62b897ca.css.map",
+    "main.984563b3.js.map": "/josdrew-site/static/js/main.984563b3.js.map",
+    "787.ab0f5ac2.chunk.js.map": "/josdrew-site/static/js/787.ab0f5ac2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bc1d99d.css",
-    "static/js/main.cd7e9339.js"
+    "static/css/main.62b897ca.css",
+    "static/js/main.984563b3.js"
   ]
 }
